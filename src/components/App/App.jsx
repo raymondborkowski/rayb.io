@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { browserHistory } from 'react-router';
-import Home from './pages/home.jsx';
-import Github from './pages/github.jsx';
-import Particles from './Particles.jsx';
-import NavBar from './Nav.jsx';
-import '../styles.less';
-import initials from './assets/images/initials.png';
+import Home from '../../scenes/Home.jsx';
+import Github from '../../scenes/Github.jsx';
+import Particles from '../Particles.jsx';
+import NavBar from '../Nav/Nav.jsx';
+import '../../styles/styles.less';
+import initials from './images/initials.png';
 
 class App extends Component {
     render() {
