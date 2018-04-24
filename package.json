@@ -1,0 +1,33 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/parcel build index.html -d build/output",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint_fix": "./node_modules/.bin/eslint . --fix",
+    "start": "./node_modules/.bin/parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "parcel-bundler": "^1.7.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-particles-js": "^2.1.2",
+    "react-router-dom": "^4.2.2"
+  }
+}
